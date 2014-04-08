@@ -34,13 +34,16 @@ public class Person {
 		return padd;
 	}
 	
-	public void printPerson(){
-		System.out.print(fname + " " + lname + " " + pnum + " " + padd.toString() + "\n"); 
-	}
-	
 	public String toString(){
 		StringBuilder p = new StringBuilder();
-		p.append(fname + " " + lname + " " + pnum + " " + padd.toString() + "\n");
+		p.append(fname);
+		p.append(" ");
+		p.append(lname);
+		p.append(" ");
+		p.append(pnum);
+		p.append(" ");
+		p.append(padd.toString());
+		p.append("\n");
 		return p.toString();
 	}
 

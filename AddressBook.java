@@ -24,12 +24,6 @@ public class AddressBook {
 		addressbook.add(person);
 	}
 	
-	public void printPerson(){
-		for(Person p: addressbook){
-			p.printPerson();
-		} 
-	}
-	
 	public String toString(){
 		StringBuilder ab = new StringBuilder();
 		

@@ -5,10 +5,7 @@ public class AddressBookDriver {
 		
 		Address a1 = new Address("Del Carmen", "Iligan City", "Lanao Del Norte", 9200);
 		Address a2 = new Address("Patag", "Cagayan De Oro City", "Misamis Occidental", 3200);
-		
-		
-		
-		
+
 		Person a = new Person("Abdul Jalil", "Laguindab", "09059366722", a1);
 		Person b = new Person("Hazel Jay", "Ramos", "09264552994", a2);
 		
@@ -18,7 +15,6 @@ public class AddressBookDriver {
 		ad.addPersonToAddressBook(b);
 		
 		System.out.println(ad.toString());
-		ad.printPerson();
 	}
 
 }

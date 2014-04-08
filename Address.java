@@ -26,13 +26,15 @@ public class Address {
 		return zip;
 	}
 	
-	public void printAddress(){
-		System.out.print(address + " " + city + " " + state + " " + zip + "\n"); 
-	}
-	
 	public String toString(){
 		StringBuilder a = new StringBuilder();
-		a.append(address + " " + city + " " + state + " " + zip);
+		a.append(address);
+		a.append(" ");
+		a.append(city);
+		a.append(" ");
+		a.append(state);
+		a.append(" ");
+		a.append(zip);
 		return a.toString();
 	}
 }
